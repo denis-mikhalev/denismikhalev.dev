@@ -1,3 +1,50 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Project
+baseURL: "https://denismikhalev.dev/"
+languageCode: "en-us"
+title: "Denis Mikhalev"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: "Denis Mikhalev"
+  description: "C# / .NET Software Engineer"
+  favicon: "/favicon.ico"
+  useBootstrapCDN: false
+
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Denis Mikhalev."
+    subtitle: "C# / .NET Software Engineer"
+    content: "Backend developer with 6+ years of experience."
+    image: /images/hero.svg
+
+  about:
+    enable: false
+  experience:
+    enable: false
+  education:
+    enable: false
+  projects:
+    enable: false
+  achievements:
+    enable: false
+  contact:
+    enable: false
