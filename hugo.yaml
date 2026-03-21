@@ -56,8 +56,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Denis Mikhalev."
-    subtitle: "C# / .NET Software Engineer"
-    content: "Backend developer with 6+ years of experience building scalable, high-performance applications. Worked at Litmos, Bosch (ETAS), and Citibank. Open to relocation & remote work."
+    subtitle: "Senior .NET Backend Engineer"
+    content: "6+ years of experience building scalable, high-performance systems and cloud-native architectures with Azure and Microservices. Focusing on clean code, system resilience, and maintainable architecture."
     image: /images/photo.jpg
     bottomImage:
       enable: true
@@ -72,7 +72,7 @@ params:
         - icon: fab fa-github
           url: https://github.com/denis-mikhalev
         - icon: fab fa-linkedin
-          url: https://linkedin.com/in/denis-mikhalev
+          url: https://www.linkedin.com/in/denis-mikhalev-software-engineer
 
   about:
     enable: true
