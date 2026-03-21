@@ -193,7 +193,7 @@ params:
     enable: true
     content: "I am open to new opportunities. Feel free to reach out!"
     btnName: "Email Me"
-    btnLink: "mailto:gmlike4@gmail.com"
+    btnLink: "mailto:hello@denismikhalev.dev"
 
   footer:
     recentPosts:
