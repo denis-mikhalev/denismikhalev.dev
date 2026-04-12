@@ -131,7 +131,7 @@
 
   #resume-page .resume-content h2 {
     font-size: 10.5pt !important;
-    color: #007bff !important;
+    color: #000 !important;
     margin-top: 8pt !important;
     margin-bottom: 4pt !important;
     padding-bottom: 2pt !important;
@@ -141,7 +141,7 @@
 
   #resume-page .resume-content h3 {
     font-size: 9pt !important;
-    color: #007bff !important;
+    color: #000 !important;
     margin-top: 5pt !important;
     margin-bottom: 1pt !important;
     page-break-after: avoid !important;
