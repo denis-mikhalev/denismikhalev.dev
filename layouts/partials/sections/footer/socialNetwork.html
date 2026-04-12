@@ -47,4 +47,27 @@
         </a>
     </span>
     {{ end }}
+
+    {{ if .Site.Params.footer.socialNetworks.instagram }}
+    <span class="px-1">
+        <a href="{{ .Site.Params.footer.socialNetworks.instagram }}" target="_blank" aria-label="instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.4em" height="2.4em" viewBox="0 0 512 512">
+                <rect width="512" height="512" rx="15%" fill="url(#ig)"/>
+                <defs>
+                    <radialGradient id="ig" cx="0.35" cy="1" r="1.4">
+                        <stop offset="0" stop-color="#fd5"/>
+                        <stop offset=".1" stop-color="#fd5"/>
+                        <stop offset=".5" stop-color="#ff543e"/>
+                        <stop offset="1" stop-color="#c837ab"/>
+                    </radialGradient>
+                </defs>
+                <g fill="none" stroke="#fff" stroke-width="30">
+                    <rect width="310" height="310" x="101" y="101" rx="81"/>
+                    <circle cx="256" cy="256" r="86"/>
+                    <circle cx="368" cy="144" r="14" fill="#fff" stroke="none"/>
+                </g>
+            </svg>
+        </a>
+    </span>
+    {{ end }}
 </div>
