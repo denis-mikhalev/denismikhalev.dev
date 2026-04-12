@@ -22,7 +22,7 @@ C# Developer with 6+ years of experience in full-cycle software development — 
 
 ## Experience
 
-### Full-stack Developer — Litmos *(via EPAM Systems)*
+### Full-stack Developer — Litmos · EPAM Systems
 **May 2023 — Present** &nbsp;|&nbsp; US-based SaaS LMS platform
 
 - Migrated legacy bulk course completion service from SQL stored procedures to .NET 7.0 Windows Service using **Azure Service Bus** — **74% reduction** in data processing time.
@@ -32,7 +32,7 @@ C# Developer with 6+ years of experience in full-cycle software development — 
 - Resolved SQL data duplication issue, reducing support team workload by 17%.
 - Fixed critical frontend accessibility issues, reducing errors from 67 to zero.
 
-### Software Engineer — ETAS / Bosch *(via EPAM Systems)*
+### Software Engineer — ETAS / Bosch · EPAM Systems
 **Jun 2022 — May 2023** &nbsp;|&nbsp; Automotive software, Germany
 
 Enhanced **ETAS MDA V8**, a WPF-based signal analysis tool used by automotive engineers at major car manufacturers worldwide.
@@ -42,7 +42,7 @@ Enhanced **ETAS MDA V8**, a WPF-based signal analysis tool used by automotive en
 - Added automated UI test suite, increasing crash-free user rate by **~27%**.
 - Refactored legacy code to SonarQube standards, reducing technical debt by **62%**.
 
-### Software Engineer — Citibank *(via EPAM Systems)*
+### Software Engineer — Citibank · EPAM Systems
 **Jul 2021 — Jun 2022**
 
 - Developed and integrated 10+ automated reports into a WinForms back-office application for Visa/MasterCard operations — reducing manual Excel work by up to **81%**.
