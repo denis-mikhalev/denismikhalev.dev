@@ -9,7 +9,7 @@ description: "Senior .NET Software Engineer — Resume"
 # Denis Mikhalev
 
 **Senior .NET Software Engineer**
-Distributed Systems · Performance Optimization · Azure Certified · SQL · Terraform
+High-Performance Distributed Systems · Scalable Microservices · Performance Optimization · Azure Certified
 
 Alanya, Turkey &nbsp;|&nbsp; [hello@denismikhalev.dev](mailto:hello@denismikhalev.dev) &nbsp;|&nbsp; [denismikhalev.dev](https://denismikhalev.dev) &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/denis-mikhalev-software-engineer) &nbsp;|&nbsp; [GitHub](https://github.com/denis-mikhalev)
 
