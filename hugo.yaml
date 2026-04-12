@@ -61,8 +61,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Denis Mikhalev."
-    subtitle: "Senior .NET Backend Engineer"
-    content: "6+ years of experience building scalable, high-performance systems and cloud-native architectures with Azure and Microservices. Focusing on clean code, system resilience, and maintainable architecture."
+    subtitle: "Senior .NET Software Engineer"
+    content: "6+ years building high-performance distributed systems and scalable microservices with Azure. Focused on performance optimization, system resilience, and maintainable architecture."
     image: /images/photo.jpg
     bottomImage:
       enable: true
