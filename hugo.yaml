@@ -110,7 +110,7 @@ params:
       - company: "Litmos"
         companyUrl: "https://www.litmos.com"
         jobs:
-          - name: "Full-stack Developer"
+          - name: "Full-stack Software Engineer"
             date: "May 2023 - Present"
             info:
               content: "US-based SaaS LMS platform"

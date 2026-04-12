@@ -23,7 +23,7 @@ C# Developer with 6+ years of experience in full-cycle software development — 
 
 ## Experience
 
-### Full-stack Developer — Litmos
+### Full-stack Software Engineer — Litmos
 **May 2023 — Present** &nbsp;|&nbsp; US-based SaaS LMS platform
 
 - Migrated legacy bulk course completion service from SQL stored procedures to .NET 7.0 Windows Service using **Azure Service Bus** — **74% reduction** in data processing time.
