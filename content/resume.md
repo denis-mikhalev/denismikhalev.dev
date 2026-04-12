@@ -16,13 +16,7 @@ Alanya, Turkey &nbsp;|&nbsp; [hello@denismikhalev.dev](mailto:hello@denismikhale
 
 ## Summary
 
-C# Developer with 6+ years of experience in full-cycle software development — from gathering requirements to delivering scalable, high-performance applications with CI/CD and high test coverage.
-
-Worked on large-scale projects at **Litmos**, **Bosch (ETAS)**, and **Citibank**, focusing on architecture, building services from scratch, feature development, and performance optimization. Collaborated with international teams from the USA, Germany, and Australia.
-
-Independently designed and implemented API integrations with multiple third-party services (Booking.com, Expedia). Migrated monolithic SQL-based services to Azure Service Bus, improving scalability and reliability. Strong expertise in MS SQL, including database design, complex stored procedures, query optimization, and performance tuning.
-
-Open to relocation & remote work.
+C# Developer with 6+ years of experience in full-cycle software development — from gathering requirements to delivering scalable, high-performance applications with CI/CD and high test coverage. Worked on large-scale projects at **Litmos**, **Bosch (ETAS)**, and **Citibank**, focusing on architecture, building services from scratch, and performance optimization. Collaborated with international teams from the USA, Germany, and Australia. Open to relocation & remote work.
 
 ---
 
