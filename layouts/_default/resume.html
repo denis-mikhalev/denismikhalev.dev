@@ -1,0 +1,48 @@
+{{ define "head" }}
+<meta name="description" content="{{ .Params.description }}">
+<link rel="stylesheet" href="{{ (printf "%scss/resume-print.css" (.Site.Params.staticPath | default "")) | relURL }}">
+
+<!-- fontawesome -->
+<script defer src="{{ (printf "%sfontawesome-6/all-6.4.2.js" (.Site.Params.staticPath | default "")) | relURL }}"></script>
+{{ end }}
+
+{{ define "title" }}
+{{ .Title }} | {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+<section id="resume-page">
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+
+        <!-- Download Buttons -->
+        <div class="download-section text-center mb-4">
+          <a href="/Denis_Mikhalev_Resume.pdf" class="btn btn-primary me-2" download>
+            <i class="fas fa-file-pdf me-1"></i> Download PDF
+          </a>
+          <a href="/Denis_Mikhalev_Resume.docx" class="btn btn-outline-primary" download>
+            <i class="fas fa-file-word me-1"></i> Download DOCX
+          </a>
+        </div>
+
+        <!-- Resume Content -->
+        <div class="resume-content">
+          {{ .Content }}
+        </div>
+
+        <!-- Bottom Download Buttons -->
+        <div class="download-section text-center mt-5 mb-3">
+          <a href="/Denis_Mikhalev_Resume.pdf" class="btn btn-primary me-2" download>
+            <i class="fas fa-file-pdf me-1"></i> Download PDF
+          </a>
+          <a href="/Denis_Mikhalev_Resume.docx" class="btn btn-outline-primary" download>
+            <i class="fas fa-file-word me-1"></i> Download DOCX
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

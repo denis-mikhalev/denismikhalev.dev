@@ -29,6 +29,11 @@ menus:
       title: Blog
       url: /blogs
       weight: 1
+    - identifier: resume
+      name: Resume
+      title: Resume
+      url: /resume
+      weight: 2
 
 params:
   title: "Denis Mikhalev"
@@ -64,9 +69,9 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
-      download: true
-      newPage: false
+      url: "/resume"
+      download: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github

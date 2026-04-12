@@ -28,6 +28,26 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: Install Pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      - name: Generate DOCX from resume markdown
+        run: |
+          # Strip YAML frontmatter and convert to DOCX
+          sed '1{/^---$/!q;};1,/^---$/d' content/resume.md > /tmp/resume-body.md
+          pandoc /tmp/resume-body.md -o public/Denis_Mikhalev_Resume.docx \
+            --from markdown --to docx
+
+      - name: Install WeasyPrint
+        run: |
+          sudo apt-get install -y python3-pip libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0 libffi-dev libcairo2
+          pip install weasyprint
+
+      - name: Generate PDF from resume page
+        run: |
+          weasyprint public/resume/index.html public/Denis_Mikhalev_Resume.pdf \
+            --stylesheet public/css/resume-print.css
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -1,0 +1,129 @@
+/* Resume page styling */
+#resume-page .resume-content {
+  background: var(--bg-color, #fff);
+  border-radius: 8px;
+  padding: 2.5rem 3rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+#resume-page .resume-content h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+#resume-page .resume-content h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 2px solid var(--primary-color, #007bff);
+  padding-bottom: 0.4rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+#resume-page .resume-content h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+  margin-top: 1.2rem;
+}
+
+#resume-page .resume-content hr {
+  margin: 1.5rem 0;
+  opacity: 0.15;
+}
+
+#resume-page .resume-content ul {
+  padding-left: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+#resume-page .resume-content ul li {
+  margin-bottom: 0.35rem;
+  line-height: 1.6;
+}
+
+#resume-page .resume-content p {
+  line-height: 1.7;
+  margin-bottom: 0.6rem;
+}
+
+#resume-page .download-section .btn {
+  padding: 0.6rem 1.5rem;
+  font-weight: 500;
+}
+
+/* Print styles — used by WeasyPrint for PDF and browser Ctrl+P */
+@media print {
+  /* Hide site chrome */
+  #profileHeader,
+  footer,
+  .download-section,
+  #search-content {
+    display: none !important;
+  }
+
+  /* Reset page for clean print */
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  #content {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  #resume-page {
+    padding: 0 !important;
+  }
+
+  #resume-page .resume-content {
+    box-shadow: none;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  #resume-page .resume-content h1 {
+    font-size: 20pt;
+    margin-bottom: 2pt;
+  }
+
+  #resume-page .resume-content h2 {
+    font-size: 13pt;
+    margin-top: 14pt;
+    margin-bottom: 6pt;
+    border-bottom: 1.5pt solid #333;
+    page-break-after: avoid;
+  }
+
+  #resume-page .resume-content h3 {
+    font-size: 11pt;
+    margin-top: 8pt;
+    page-break-after: avoid;
+  }
+
+  #resume-page .resume-content ul li {
+    margin-bottom: 2pt;
+  }
+
+  a {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+
+  /* Avoid page breaks inside experience blocks */
+  #resume-page .resume-content h3 + p,
+  #resume-page .resume-content h3 + ul {
+    page-break-inside: avoid;
+  }
+
+  @page {
+    margin: 1.5cm 2cm;
+    size: A4;
+  }
+}
