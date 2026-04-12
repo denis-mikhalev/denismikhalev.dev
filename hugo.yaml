@@ -110,7 +110,7 @@ params:
       - company: "Litmos"
         companyUrl: "https://www.litmos.com"
         jobs:
-          - name: "Full-stack Developer (via EPAM Systems)"
+          - name: "Full-stack Developer"
             date: "May 2023 - Present"
             info:
               content: "US-based SaaS LMS platform"
@@ -125,7 +125,7 @@ params:
       - company: "ETAS (Bosch)"
         companyUrl: "https://www.etas.com"
         jobs:
-          - name: "Software Engineer (via EPAM Systems)"
+          - name: "Software Engineer"
             date: "Jun 2022 - May 2023"
             info:
               content: "Automotive software, Germany"
@@ -140,7 +140,7 @@ params:
       - company: "Citibank"
         companyUrl: "https://www.citi.com"
         jobs:
-          - name: "Software Engineer (via EPAM Systems)"
+          - name: "Software Engineer"
             date: "Jul 2021 - Jun 2022"
             content: |
               - Developed and integrated 10+ automated reports into a WinForms back-office application for Visa/MasterCard operations — reducing manual Excel work by up to **81%**.
