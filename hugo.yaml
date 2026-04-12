@@ -113,7 +113,7 @@ params:
           - name: "Full-stack Developer (via EPAM Systems)"
             date: "May 2023 - Present"
             info:
-              content: "US-based LMS platform"
+              content: "US-based SaaS LMS platform"
             content: |
               - Migrated legacy bulk course completion service from SQL stored procedures to .NET 7.0 Windows Service using **Azure Service Bus** — **74% reduction** in data processing time.
               - Optimized report generation engine — from **35 minutes to 1 min 15 sec** (96% improvement).

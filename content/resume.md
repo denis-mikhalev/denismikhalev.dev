@@ -23,7 +23,7 @@ C# Developer with 6+ years of experience in full-cycle software development — 
 ## Experience
 
 ### Full-stack Developer — Litmos *(via EPAM Systems)*
-**May 2023 — Present** &nbsp;|&nbsp; US-based LMS platform
+**May 2023 — Present** &nbsp;|&nbsp; US-based SaaS LMS platform
 
 - Migrated legacy bulk course completion service from SQL stored procedures to .NET 7.0 Windows Service using **Azure Service Bus** — **74% reduction** in data processing time.
 - Optimized report generation engine — from **35 minutes to 1 min 15 sec** (96% improvement).
