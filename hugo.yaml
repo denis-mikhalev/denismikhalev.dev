@@ -45,6 +45,7 @@ params:
   navbar:
     align: ms-auto
     brandName: "Denis Mikhalev"
+    showBrandLogo: false
     disableSearch: true
     stickyNavBar:
       enable: true
