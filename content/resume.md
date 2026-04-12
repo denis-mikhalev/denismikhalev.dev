@@ -49,11 +49,14 @@ Enhanced **ETAS MDA V8**, a WPF-based signal analysis tool used by automotive en
 - Implemented quarterly regulatory reporting modules for Central Bank compliance.
 - Created fraud-detection reporting modules enhancing visibility into suspicious transactions.
 - Refactored legacy SQL stored procedures, improving report generation speed.
+- Designed database views excluding sensitive PII for privacy and compliance.
 
 ### Software Engineer — Frontdesk24
 **Jan 2020 — Jul 2021**
 
 - Independently designed and implemented API integrations between the SaaS hotel management platform and major OTAs: **Booking.com**, **Expedia**, Channex.io, Bronevik.com, OneTwoTrip, NashTravel.
+- Reduced booking processing time from **2+ minutes to 1–2 seconds**.
+- Fixed memory leaks and critical backend issues, removing the need for weekly service restarts.
 - Built and maintained core features of the cloud hotel management system (SaaS).
 
 ---
@@ -79,12 +82,16 @@ Southern Federal University &nbsp;|&nbsp; 2012 — 2015
 
 ## Technical Skills
 
-**Languages & Frameworks:** C#, .NET Core, ASP.NET Core, Entity Framework Core, WPF, WinForms
+**Languages & Frameworks:** C#, .NET Core / .NET 7, .NET Framework, ASP.NET Core, ASP.NET MVC, Entity Framework Core, WPF, WinForms, Windows Services
 
-**Cloud & Infrastructure:** Microsoft Azure, Azure Service Bus, Docker, Terraform
+**Cloud & Infrastructure:** Microsoft Azure, Azure Service Bus, Docker, Terraform, Jenkins
 
-**Databases:** MS SQL Server, Database Design, Query Optimization, Stored Procedures
+**Databases:** MS SQL Server, T-SQL, Database Design, Query Optimization, Stored Procedures
 
-**Architecture:** Microservices, REST APIs, Event-Driven Architecture
+**APIs & Integrations:** REST, SOAP, WCF, GraphQL, JWT
 
-**Practices:** CI/CD, Unit Testing, Performance Optimization, SonarQube, Git
+**Architecture:** Microservices, Event-Driven Architecture
+
+**Testing:** xUnit, NUnit, Moq, Selenium, SonarQube
+
+**Practices:** CI/CD, Performance Optimization, Git
