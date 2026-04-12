@@ -79,6 +79,10 @@ params:
           url: https://github.com/denis-mikhalev
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/denis-mikhalev-software-engineer
+        - icon: fab fa-telegram
+          url: https://t.me/denis_mikhalev
+        - icon: fab fa-whatsapp
+          url: https://wa.me/905358153246
 
   about:
     enable: true
@@ -211,6 +215,8 @@ params:
     socialNetworks:
       github: https://github.com/denis-mikhalev
       linkedin: https://linkedin.com/in/denis-mikhalev
+      telegram: https://t.me/denis_mikhalev
+      whatsapp: https://wa.me/905358153246
 
   listPages:
     disableFeaturedImage: false
