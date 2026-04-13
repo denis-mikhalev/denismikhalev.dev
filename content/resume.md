@@ -11,7 +11,7 @@ description: "Senior .NET Software Engineer — Resume"
 **Senior .NET Software Engineer**
 High-Performance Distributed Systems · Scalable Microservices · Performance Optimization · Azure Certified
 
-Alanya, Turkey &nbsp;|&nbsp; [hello@denismikhalev.dev](mailto:hello@denismikhalev.dev) &nbsp;|&nbsp; [denismikhalev.dev](https://denismikhalev.dev) &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/denis-mikhalev-software-engineer) &nbsp;|&nbsp; [GitHub](https://github.com/denis-mikhalev)
+Alanya, Turkey &nbsp;|&nbsp; [hello@denismikhalev.dev](mailto:hello@denismikhalev.dev) &nbsp;|&nbsp; [denismikhalev.dev](https://denismikhalev.dev) &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/denis-mikhalev-software-engineer) &nbsp;|&nbsp; [GitHub](https://github.com/denis-mikhalev) &nbsp;|&nbsp; [Telegram](https://t.me/denis_mikhalev) &nbsp;|&nbsp; [WhatsApp](https://wa.me/79183646155)
 
 ---
 
