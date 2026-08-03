@@ -42,6 +42,8 @@ params:
   description: "C# / .NET Software Engineer with 6+ years of experience"
   favicon: "/fav.png"
   useBootstrapCDN: false
+  # Loads /style.css — see static/style.css for what it overrides.
+  customCSS: true
   animate: true
 
   navbar:

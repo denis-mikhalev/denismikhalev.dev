@@ -1,0 +1,11 @@
+/* Site overrides on top of the hugo-profile theme. */
+
+/* The theme caps the About skills grid at two 200px columns
+   (repeat(2, minmax(140px, 200px))), which wraps longer labels such as
+   "Event-Driven Architecture" onto a second line. Let the columns size
+   themselves instead: they widen to fit the longest label on desktop and
+   collapse to fewer columns on narrow screens. */
+#about ul {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  column-gap: 24px;
+}
