@@ -106,7 +106,7 @@ Southern Federal University &nbsp;|&nbsp; 2012 — 2015
 
 **Cloud & Infrastructure:** Microsoft Azure, Azure Service Bus, Azure AI, Docker, Terraform, Jenkins
 
-**Frontend:** Razor, JavaScript, HTML, CSS, Accessibility (WCAG)
+**Frontend:** Razor, JavaScript, jQuery, Bootstrap, HTML, CSS, Accessibility (WCAG)
 
 **Databases:** MS SQL Server, T-SQL, Database Design, Query Optimization, Stored Procedures
 
