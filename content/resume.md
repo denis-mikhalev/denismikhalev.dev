@@ -100,7 +100,9 @@ Southern Federal University &nbsp;|&nbsp; 2012 — 2015
 
 ## Technical Skills
 
-**Languages & Frameworks:** C#, .NET Core / .NET 7, .NET Framework, ASP.NET Core, ASP.NET MVC, Entity Framework Core, WPF, WinForms, Windows Services
+**Languages & Frameworks:** C#, .NET Core / .NET 7, .NET Framework, ASP.NET Core, ASP.NET MVC, Entity Framework Core, WPF, WinForms, Windows Services, Python, FastAPI
+
+**AI:** LLM integration, prompt engineering, speech-to-text pipelines
 
 **Cloud & Infrastructure:** Microsoft Azure, Azure Service Bus, Docker, Terraform, Jenkins
 

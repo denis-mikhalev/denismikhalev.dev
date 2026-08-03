@@ -104,14 +104,20 @@ params:
       items:
         - "C# / .NET Core"
         - "ASP.NET Core"
-        - "MS SQL Server"
-        - "Microsoft Azure"
-        - "Azure Service Bus"
-        - "Docker"
-        - "Entity Framework Core"
         - "Microservices"
+        - "Event-Driven Architecture"
+        - "Distributed Systems"
+        - "Performance Optimization"
+        - "Microsoft Azure"
+        - "MS SQL Server"
+        - "Entity Framework Core"
         - "REST APIs"
+        - "Docker"
         - "Terraform"
+        - "CI/CD"
+        - "Python"
+        - "FastAPI"
+        - "LLM Integration"
 
   experience:
     enable: true
@@ -206,11 +212,10 @@ params:
     items:
       - title: "VoiceTrics — AI Call Analytics"
         content: >-
-          A production SaaS I designed and built solo: it transcribes clinic phone calls
-          with Russian speech recognition, scores each conversation against a sales
-          checklist with an LLM, and turns that into per-employee analytics and Telegram
-          alerts. Ships two ways from one codebase — an on-prem Windows install and a
-          multi-tenant cloud version.
+          A production SaaS I designed and built solo: it transcribes clinic phone calls,
+          scores each conversation against a sales checklist with an LLM, and turns that
+          into per-employee analytics and Telegram alerts. Ships two ways from one
+          codebase — an on-prem Windows install and a multi-tenant cloud version.
         image: /images/projects/voicetrics.png
         featured:
           name: Live demo
