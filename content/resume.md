@@ -104,13 +104,13 @@ Southern Federal University &nbsp;|&nbsp; 2012 — 2015
 
 **AI:** LLM integration, prompt engineering, speech-to-text pipelines
 
-**Cloud & Infrastructure:** Microsoft Azure, Azure Service Bus, Docker, Terraform, Jenkins
+**Cloud & Infrastructure:** Microsoft Azure, Azure Service Bus, Azure AI, Docker, Terraform, Jenkins
 
 **Databases:** MS SQL Server, T-SQL, Database Design, Query Optimization, Stored Procedures
 
 **APIs & Integrations:** REST, SOAP, WCF, GraphQL, JWT
 
-**Architecture:** Microservices, Event-Driven Architecture
+**Architecture:** Microservices, Event-Driven Architecture, Distributed Systems, Legacy Modernization, System Integration
 
 **Testing:** xUnit, NUnit, Moq, Selenium, SonarQube
 
