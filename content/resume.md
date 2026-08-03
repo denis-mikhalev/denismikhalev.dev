@@ -64,6 +64,21 @@ Enhanced **ETAS MDA V8**, a WPF-based signal analysis tool used by automotive en
 
 ---
 
+## Side Project
+
+### Technical Founder — VoiceTrics
+**2026 — Present** &nbsp;|&nbsp; [voicetrics.ru](https://voicetrics.ru) &nbsp;|&nbsp; AI call analytics for dental clinics
+
+A production SaaS built solo, end to end — ingestion pipeline, speech recognition, LLM scoring, analytics UI, licensing, installer and deployment.
+
+- Ships two ways from one codebase: an on-prem Windows install and a multi-tenant cloud version, where tenants are isolated as separate processes and databases behind their own subdomains (**systemd**, **nginx**) rather than a tenant column.
+- Built a pluggable speech-to-text layer with four interchangeable engines, lazily loaded so unused heavy dependencies never enter memory — switching a customer's engine is a config change.
+- Kept the proprietary scoring engine server-side behind an HTTP contract, so no analysis IP ships to customer hardware and only the transcript — never the audio — leaves an on-prem install.
+- Implemented offline licensing: **Ed25519**-signed tokens verified without network access, machine fingerprinting, self-service trials and heartbeat telemetry.
+- Stack: **Python**, **FastAPI**, SQLAlchemy, SQLite, APScheduler, LLM & STT APIs, Linux VPS.
+
+---
+
 ## Education
 
 **Master of Science — Software Engineering**

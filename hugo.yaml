@@ -24,11 +24,13 @@ markup:
 
 menus:
   main:
-    - identifier: blog
-      name: Blog
-      title: Blog
-      url: /blogs
-      weight: 1
+    # Blog is hidden until there are real posts — the theme's demo articles were removed.
+    # To bring it back, restore this entry:
+    #   - identifier: blog
+    #     name: Blog
+    #     title: Blog
+    #     url: /blogs
+    #     weight: 1
     - identifier: resume
       name: Resume
       title: Resume
@@ -54,7 +56,7 @@ params:
       disableAbout: false
       disableExperience: false
       disableEducation: false
-      disableProjects: true
+      disableProjects: false
       disableAchievements: false
       disableContact: false
 
@@ -199,7 +201,26 @@ params:
         image: /images/achievement.jpg
 
   projects:
-    enable: false
+    enable: true
+    title: "Side Projects"
+    items:
+      - title: "VoiceTrics — AI Call Analytics"
+        content: >-
+          A production SaaS I designed and built solo: it transcribes clinic phone calls
+          with Russian speech recognition, scores each conversation against a sales
+          checklist with an LLM, and turns that into per-employee analytics and Telegram
+          alerts. Ships two ways from one codebase — an on-prem Windows install and a
+          multi-tenant cloud version.
+        image: /images/projects/voicetrics.png
+        featured:
+          name: Live demo
+          link: https://voicetrics.ru
+        badges:
+          - "Python"
+          - "FastAPI"
+          - "LLM"
+          - "Speech-to-Text"
+          - "SaaS"
 
   contact:
     enable: true
