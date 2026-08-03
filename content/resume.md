@@ -110,7 +110,7 @@ Southern Federal University &nbsp;|&nbsp; 2012 — 2015
 
 **APIs & Integrations:** REST, SOAP, WCF, GraphQL, JWT
 
-**Architecture:** Microservices, Event-Driven Architecture, Distributed Systems, Legacy Modernization, System Integration
+**Architecture:** Microservices, Event-Driven Architecture, Distributed Systems, System Integration
 
 **Testing:** xUnit, NUnit, Moq, Selenium, SonarQube
 
