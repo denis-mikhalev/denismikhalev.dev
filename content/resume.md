@@ -104,16 +104,16 @@ Southern Federal University &nbsp;|&nbsp; 2012 — 2015
 
 **AI:** LLM integration, prompt engineering, speech-to-text pipelines
 
-**Cloud & Infrastructure:** Microsoft Azure, Azure Service Bus, Azure AI, Docker, Terraform, Jenkins
+**Cloud & Infrastructure:** Microsoft Azure, Azure Functions, Cosmos DB, Azure Service Bus, Azure AI, Azure DevOps, Docker, Terraform
 
 **Frontend:** Razor, JavaScript, jQuery, Bootstrap, HTML, CSS, Accessibility (WCAG)
 
-**Databases:** MS SQL Server, T-SQL, Database Design, Query Optimization, Stored Procedures
+**Databases:** MS SQL Server, T-SQL, Cosmos DB, Redis, Entity Framework Core, Dapper, Database Design, Query Optimization, Stored Procedures
 
 **APIs & Integrations:** REST, SOAP, WCF, GraphQL, JWT
 
-**Architecture:** Microservices, Event-Driven Architecture, Distributed Systems, System Integration
+**Architecture:** Microservices, Event-Driven Architecture, CQRS, MediatR, Distributed Systems, System Integration
 
 **Testing:** xUnit, NUnit, Moq, Selenium, SonarQube
 
-**Practices:** CI/CD, Performance Optimization, Git
+**Practices:** CI/CD (GitHub Actions, Azure DevOps, Jenkins), Performance Optimization, Git
