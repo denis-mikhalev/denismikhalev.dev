@@ -17,7 +17,7 @@ Alanya, Turkey &nbsp;|&nbsp; [hello@denismikhalev.dev](mailto:hello@denismikhale
 
 ## Summary
 
-C# Developer with 6+ years of experience in full-cycle software development — from gathering requirements to delivering scalable, high-performance applications with CI/CD and high test coverage. Worked on large-scale projects at **Litmos**, **Bosch (ETAS)**, and **Citibank**, focusing on architecture, building services from scratch, and performance optimization. Collaborated with international teams from the USA, Germany, and Australia. Open to relocation & remote work.
+C# Developer with 7+ years of experience in full-cycle software development — from gathering requirements to delivering scalable, high-performance applications with CI/CD and high test coverage. Worked on large-scale projects at **Litmos**, **Bosch (ETAS)**, and **Citibank**, focusing on architecture, building services from scratch, and performance optimization. Collaborated with international teams from the USA, Germany, and Australia. Open to relocation & remote work.
 
 ---
 
@@ -53,7 +53,7 @@ Enhanced **ETAS MDA V8**, a WPF-based signal analysis tool used by automotive en
 - Designed database views excluding sensitive PII for privacy and compliance.
 
 ### Software Engineer — Frontdesk24
-**Jan 2020 — Jul 2021**
+**Aug 2019 — Jul 2021**
 
 - Independently designed and implemented API integrations between the SaaS hotel management platform and major OTAs: **Booking.com**, **Expedia**, Channex.io, Bronevik.com, OneTwoTrip, NashTravel.
 - Reduced booking processing time from **2+ minutes to 1–2 seconds**.

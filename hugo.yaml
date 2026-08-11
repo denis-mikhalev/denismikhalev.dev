@@ -39,7 +39,7 @@ menus:
 
 params:
   title: "Denis Mikhalev"
-  description: "C# / .NET Software Engineer with 6+ years of experience"
+  description: "C# / .NET Software Engineer with 7+ years of experience"
   favicon: "/fav.png"
   useBootstrapCDN: false
   # Loads /style.css — see static/style.css for what it overrides.
@@ -67,7 +67,7 @@ params:
     intro: "Hi, my name is"
     title: "Denis Mikhalev."
     subtitle: "Senior .NET Software Engineer"
-    content: "6+ years building high-performance distributed systems and scalable microservices with Azure. Focused on performance optimization, system resilience, and maintainable architecture."
+    content: "7+ years building high-performance distributed systems and scalable microservices with Azure. Focused on performance optimization, system resilience, and maintainable architecture."
     image: /images/photo.jpg
     bottomImage:
       enable: true
@@ -95,7 +95,7 @@ params:
     title: "About Me"
     image: "/images/photo.jpg"
     content: |-
-      C# Developer with 6+ years of experience in full-cycle software development — from gathering requirements to delivering scalable, high-performance applications with CI/CD and high test coverage.
+      C# Developer with 7+ years of experience in full-cycle software development — from gathering requirements to delivering scalable, high-performance applications with CI/CD and high test coverage.
 
       I have worked on large-scale projects at **Litmos**, **Bosch (ETAS)**, and **Citibank**, focusing on architecture, building services from scratch, feature development, and performance optimization. I have collaborated with teams from the USA, Germany, and Australia.
 
@@ -171,7 +171,7 @@ params:
         companyUrl: "https://frontdesk24.ru"
         jobs:
           - name: "Software Engineer"
-            date: "Jan 2020 - Jul 2021"
+            date: "Aug 2019 - Jul 2021"
             content: |
               - Independently designed and implemented API integrations between the SaaS hotel management platform and major OTAs: **Booking.com**, **Expedia**, Channex.io, Bronevik.com, OneTwoTrip, NashTravel.
               - Built and maintained core features of the cloud hotel management system (SaaS).
