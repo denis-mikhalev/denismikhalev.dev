@@ -67,7 +67,7 @@ Enhanced **ETAS MDA V8**, a WPF-based signal analysis tool used by automotive en
 ## Side Project
 
 ### Technical Founder — VoiceTrics
-**2026 — Present** &nbsp;|&nbsp; [voicetrics.ru](https://voicetrics.ru) &nbsp;|&nbsp; AI call analytics for dental clinics
+**2026 — Present** &nbsp;|&nbsp; [voicetrics.com](https://voicetrics.com) &nbsp;|&nbsp; AI call analytics for dental clinics
 
 A production SaaS built solo, end to end — ingestion pipeline, speech recognition, LLM scoring, analytics UI, licensing, installer and deployment.
 
