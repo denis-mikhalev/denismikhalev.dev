@@ -228,7 +228,7 @@ params:
         image: /images/projects/voicetrics.png
         featured:
           name: Live demo
-          link: https://voicetrics.ru
+          link: https://voicetrics.com
         badges:
           - "Python"
           - "FastAPI"
