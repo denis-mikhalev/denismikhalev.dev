@@ -231,6 +231,7 @@ params:
           link: https://voicetrics.com
         badges:
           - "Go"
+          - "Python"
           - "LLM"
           - "Speech-to-Text"
           - "SaaS"

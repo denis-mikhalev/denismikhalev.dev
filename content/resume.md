@@ -3,12 +3,12 @@ title: "Resume — Denis Mikhalev"
 date: 2025-01-01
 draft: false
 layout: "resume"
-description: "Senior .NET Software Engineer — Resume"
+description: "Senior Software Engineer (Go / C#) — Resume"
 ---
 
 # Denis Mikhalev
 
-**Senior .NET Software Engineer**
+**Senior Software Engineer (Go / C#)**
 High-Performance Distributed Systems · Scalable Microservices · Performance Optimization · Azure Certified
 
 Alanya, Turkey &nbsp;|&nbsp; [hello@denismikhalev.dev](mailto:hello@denismikhalev.dev) &nbsp;|&nbsp; [denismikhalev.dev](https://denismikhalev.dev) &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/denis-mikhalev-software-engineer/) &nbsp;|&nbsp; [GitHub](https://github.com/denis-mikhalev) &nbsp;|&nbsp; [Telegram](https://t.me/denis_mikhalev) &nbsp;|&nbsp; [WhatsApp](https://wa.me/79183646155)
@@ -75,7 +75,7 @@ A production SaaS rewritten in Go. As technical owner I'm responsible for the ar
 - Built a pluggable speech-to-text layer with four interchangeable engines, lazily loaded so unused heavy dependencies never enter memory — switching a customer's engine is a config change.
 - Kept the proprietary scoring engine server-side behind an HTTP contract, so no analysis IP ships to customer hardware and only the transcript — never the audio — leaves an on-prem install.
 - Implemented offline licensing: **Ed25519**-signed tokens verified without network access, machine fingerprinting, self-service trials and heartbeat telemetry.
-- Stack: **Go**, LLM & STT APIs, Linux VPS.
+- Stack: **Go**, **Python** (part of the modules), LLM & STT APIs, Linux VPS.
 
 ---
 
