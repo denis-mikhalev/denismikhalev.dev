@@ -66,8 +66,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Denis Mikhalev."
-    subtitle: "Senior Software Engineer (Go / C#)"
-    content: "7+ years building high-performance distributed systems and scalable microservices with Go, C# and Azure. Focused on performance optimization, system resilience, and maintainable architecture."
+    subtitle: "Senior Software Engineer (C# / Go)"
+    content: "7+ years building high-performance distributed systems and scalable microservices with C#, Go and Azure. Focused on performance optimization, system resilience, and maintainable architecture."
     image: /images/photo.jpg
     bottomImage:
       enable: true
@@ -230,6 +230,7 @@ params:
           name: Live demo
           link: https://voicetrics.com
         badges:
+          - "C#"
           - "Go"
           - "Python"
           - "LLM"

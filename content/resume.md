@@ -3,12 +3,12 @@ title: "Resume — Denis Mikhalev"
 date: 2025-01-01
 draft: false
 layout: "resume"
-description: "Senior Software Engineer (Go / C#) — Resume"
+description: "Senior Software Engineer (C# / Go) — Resume"
 ---
 
 # Denis Mikhalev
 
-**Senior Software Engineer (Go / C#)**
+**Senior Software Engineer (C# / Go)**
 High-Performance Distributed Systems · Scalable Microservices · Performance Optimization · Azure Certified
 
 Alanya, Turkey &nbsp;|&nbsp; [hello@denismikhalev.dev](mailto:hello@denismikhalev.dev) &nbsp;|&nbsp; [denismikhalev.dev](https://denismikhalev.dev) &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/denis-mikhalev-software-engineer/) &nbsp;|&nbsp; [GitHub](https://github.com/denis-mikhalev) &nbsp;|&nbsp; [Telegram](https://t.me/denis_mikhalev) &nbsp;|&nbsp; [WhatsApp](https://wa.me/79183646155)
@@ -17,7 +17,7 @@ Alanya, Turkey &nbsp;|&nbsp; [hello@denismikhalev.dev](mailto:hello@denismikhale
 
 ## Summary
 
-Go and C# developer with 7+ years of experience in full-cycle software development — from gathering requirements to delivering scalable, high-performance applications with CI/CD and high test coverage. Worked on large-scale projects at **Litmos**, **Bosch (ETAS)**, and **Citibank**, focusing on architecture, building services from scratch, and performance optimization. Collaborated with international teams from the USA, Germany, and Australia. Open to relocation & remote work.
+C# and Go developer with 7+ years of experience in full-cycle software development — from gathering requirements to delivering scalable, high-performance applications with CI/CD and high test coverage. Worked on large-scale projects at **Litmos**, **Bosch (ETAS)**, and **Citibank**, focusing on architecture, building services from scratch, and performance optimization. Collaborated with international teams from the USA, Germany, and Australia. Open to relocation & remote work.
 
 ---
 
@@ -100,7 +100,7 @@ Southern Federal University &nbsp;|&nbsp; 2012 — 2015
 
 ## Technical Skills
 
-**Languages & Frameworks:** Go, C#, .NET Core / .NET 7, .NET Framework, ASP.NET Core, ASP.NET MVC, Entity Framework Core, WPF, WinForms, Windows Services, Python, FastAPI
+**Languages & Frameworks:** C#, Go, .NET Core / .NET 7, .NET Framework, ASP.NET Core, ASP.NET MVC, Entity Framework Core, WPF, WinForms, Windows Services, Python, FastAPI
 
 **AI:** LLM integration, prompt engineering, speech-to-text pipelines
 
