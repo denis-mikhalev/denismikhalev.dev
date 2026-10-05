@@ -17,7 +17,7 @@ Alanya, Turkey &nbsp;|&nbsp; [hello@denismikhalev.dev](mailto:hello@denismikhale
 
 ## Summary
 
-C# Developer with 7+ years of experience in full-cycle software development — from gathering requirements to delivering scalable, high-performance applications with CI/CD and high test coverage. Worked on large-scale projects at **Litmos**, **Bosch (ETAS)**, and **Citibank**, focusing on architecture, building services from scratch, and performance optimization. Collaborated with international teams from the USA, Germany, and Australia. Open to relocation & remote work.
+Go and C# developer with 7+ years of experience in full-cycle software development — from gathering requirements to delivering scalable, high-performance applications with CI/CD and high test coverage. Worked on large-scale projects at **Litmos**, **Bosch (ETAS)**, and **Citibank**, focusing on architecture, building services from scratch, and performance optimization. Collaborated with international teams from the USA, Germany, and Australia. Open to relocation & remote work.
 
 ---
 
@@ -66,16 +66,16 @@ Enhanced **ETAS MDA V8**, a WPF-based signal analysis tool used by automotive en
 
 ## Side Project
 
-### Technical Founder — VoiceTrics
+### Technical Owner — Voicetrics
 **2026 — Present** &nbsp;|&nbsp; [voicetrics.com](https://voicetrics.com) &nbsp;|&nbsp; AI call analytics for dental clinics
 
-A production SaaS built solo, end to end — ingestion pipeline, speech recognition, LLM scoring, analytics UI, licensing, installer and deployment.
+A production SaaS rewritten in Go. As technical owner I'm responsible for the architecture and end-to-end engineering: ingestion pipeline, speech recognition, LLM scoring, analytics UI, licensing, installer and deployment.
 
 - Ships two ways from one codebase: an on-prem Windows install and a multi-tenant cloud version, where tenants are isolated as separate processes and databases behind their own subdomains (**systemd**, **nginx**) rather than a tenant column.
 - Built a pluggable speech-to-text layer with four interchangeable engines, lazily loaded so unused heavy dependencies never enter memory — switching a customer's engine is a config change.
 - Kept the proprietary scoring engine server-side behind an HTTP contract, so no analysis IP ships to customer hardware and only the transcript — never the audio — leaves an on-prem install.
 - Implemented offline licensing: **Ed25519**-signed tokens verified without network access, machine fingerprinting, self-service trials and heartbeat telemetry.
-- Stack: **Python**, **FastAPI**, SQLAlchemy, SQLite, APScheduler, LLM & STT APIs, Linux VPS.
+- Stack: **Go**, LLM & STT APIs, Linux VPS.
 
 ---
 
@@ -100,7 +100,7 @@ Southern Federal University &nbsp;|&nbsp; 2012 — 2015
 
 ## Technical Skills
 
-**Languages & Frameworks:** C#, .NET Core / .NET 7, .NET Framework, ASP.NET Core, ASP.NET MVC, Entity Framework Core, WPF, WinForms, Windows Services, Python, FastAPI
+**Languages & Frameworks:** Go, C#, .NET Core / .NET 7, .NET Framework, ASP.NET Core, ASP.NET MVC, Entity Framework Core, WPF, WinForms, Windows Services, Python, FastAPI
 
 **AI:** LLM integration, prompt engineering, speech-to-text pipelines
 

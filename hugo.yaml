@@ -219,19 +219,18 @@ params:
     enable: true
     title: "Side Projects"
     items:
-      - title: "VoiceTrics — AI Call Analytics"
+      - title: "Voicetrics — AI Call Analytics"
         content: >-
-          A production SaaS I designed and built solo: it transcribes clinic phone calls,
-          scores each conversation against a sales checklist with an LLM, and turns that
-          into per-employee analytics and Telegram alerts. Ships two ways from one
+          A production SaaS I own as technical owner, rewritten in Go: it transcribes clinic
+          phone calls, scores each conversation against a sales checklist with an LLM, and
+          turns that into per-employee analytics and Telegram alerts. Ships two ways from one
           codebase — an on-prem Windows install and a multi-tenant cloud version.
         image: /images/projects/voicetrics.png
         featured:
           name: Live demo
           link: https://voicetrics.com
         badges:
-          - "Python"
-          - "FastAPI"
+          - "Go"
           - "LLM"
           - "Speech-to-Text"
           - "SaaS"
