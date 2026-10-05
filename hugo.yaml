@@ -145,6 +145,9 @@ params:
               - Eliminated memory leaks in a key Windows service, restoring system stability.
               - Resolved SQL data duplication issue, reducing support team workload by 17%.
               - Fixed critical frontend accessibility issues, reducing errors from 67 to zero.
+              - Integrated **encoding.com** into video processing and normalization applications.
+              - Built a **Salesforce** integration: the Litmos app opens inside a Salesforce canvas (iframe) with authentication and automatic user provisioning on first open.
+              - Built the Litmos-side backend that synchronizes data between Litmos and Salesforce.
 
       - company: "ETAS (Bosch)"
         companyUrl: "https://www.etas.com"

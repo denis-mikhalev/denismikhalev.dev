@@ -32,6 +32,9 @@ C# and Go developer with 7+ years of experience in full-cycle software developme
 - Eliminated memory leaks in a key Windows service, restoring system stability.
 - Resolved SQL data duplication issue, reducing support team workload by 17%.
 - Fixed critical frontend accessibility issues, reducing errors from 67 to zero.
+- Integrated **encoding.com** into video processing and normalization applications.
+- Built a **Salesforce** integration: the Litmos app opens inside a Salesforce canvas (iframe) with authentication and automatic user provisioning on first open.
+- Built the Litmos-side backend that synchronizes data between Litmos and Salesforce.
 
 ### Software Engineer — ETAS / Bosch
 **Jun 2022 — May 2023** &nbsp;|&nbsp; Automotive software, Germany
@@ -110,7 +113,7 @@ Southern Federal University &nbsp;|&nbsp; 2012 — 2015
 
 **Databases:** MS SQL Server, T-SQL, Cosmos DB, Redis, Entity Framework Core, Dapper, Database Design, Query Optimization, Stored Procedures
 
-**APIs & Integrations:** REST, SOAP, WCF, GraphQL, JWT
+**APIs & Integrations:** REST, SOAP, WCF, GraphQL, JWT, Salesforce (Canvas), encoding.com
 
 **Architecture:** Microservices, Event-Driven Architecture, CQRS, MediatR, Distributed Systems, System Integration
 
