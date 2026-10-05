@@ -67,7 +67,7 @@ Enhanced **ETAS MDA V8**, a WPF-based signal analysis tool used by automotive en
 ## Side Project
 
 ### Technical Owner — Voicetrics
-**2026 — Present** &nbsp;|&nbsp; [voicetrics.com](https://voicetrics.com) &nbsp;|&nbsp; AI call analytics for dental clinics
+**2026 — Present** &nbsp;|&nbsp; [voicetrics.com](https://voicetrics.com) &nbsp;|&nbsp; AI call analytics for businesses
 
 A production SaaS built in Go, with the AI-related modules in Python. As technical owner I'm responsible for the architecture and end-to-end engineering: ingestion pipeline, speech recognition, LLM scoring, analytics UI, licensing, installer and deployment.
 
