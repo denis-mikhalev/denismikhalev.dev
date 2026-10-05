@@ -221,7 +221,7 @@ params:
     items:
       - title: "Voicetrics — AI Call Analytics"
         content: >-
-          A production SaaS I own as technical owner, rewritten in Go: it transcribes clinic
+          A production SaaS I own as technical owner, built in Go with the AI modules in Python: it transcribes clinic
           phone calls, scores each conversation against a sales checklist with an LLM, and
           turns that into per-employee analytics and Telegram alerts. Ships two ways from one
           codebase — an on-prem Windows install and a multi-tenant cloud version.

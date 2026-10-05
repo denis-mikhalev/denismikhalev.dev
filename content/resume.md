@@ -69,13 +69,13 @@ Enhanced **ETAS MDA V8**, a WPF-based signal analysis tool used by automotive en
 ### Technical Owner — Voicetrics
 **2026 — Present** &nbsp;|&nbsp; [voicetrics.com](https://voicetrics.com) &nbsp;|&nbsp; AI call analytics for dental clinics
 
-A production SaaS rewritten in Go. As technical owner I'm responsible for the architecture and end-to-end engineering: ingestion pipeline, speech recognition, LLM scoring, analytics UI, licensing, installer and deployment.
+A production SaaS built in Go, with the AI-related modules in Python. As technical owner I'm responsible for the architecture and end-to-end engineering: ingestion pipeline, speech recognition, LLM scoring, analytics UI, licensing, installer and deployment.
 
 - Ships two ways from one codebase: an on-prem Windows install and a multi-tenant cloud version, where tenants are isolated as separate processes and databases behind their own subdomains (**systemd**, **nginx**) rather than a tenant column.
 - Built a pluggable speech-to-text layer with four interchangeable engines, lazily loaded so unused heavy dependencies never enter memory — switching a customer's engine is a config change.
 - Kept the proprietary scoring engine server-side behind an HTTP contract, so no analysis IP ships to customer hardware and only the transcript — never the audio — leaves an on-prem install.
 - Implemented offline licensing: **Ed25519**-signed tokens verified without network access, machine fingerprinting, self-service trials and heartbeat telemetry.
-- Stack: **Go**, **Python** (part of the modules), LLM & STT APIs, Linux VPS.
+- Stack: **Go**, **Python** (AI modules), LLM & STT APIs, Linux VPS.
 
 ---
 
