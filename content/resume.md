@@ -26,15 +26,16 @@ C# and Go developer with 7+ years of experience in full-cycle software developme
 ### Full-stack Software Engineer — Litmos
 **May 2023 — Present** &nbsp;|&nbsp; US-based SaaS LMS platform
 
-- Migrated legacy bulk course completion service from SQL stored procedures to .NET 7.0 Windows Service using **Azure Service Bus** — **74% reduction** in data processing time.
-- Optimized report generation engine — from **35 minutes to 1 min 15 sec** (96% improvement).
-- Built granular roles and permissions system for enterprise-level access management.
-- Eliminated memory leaks in a key Windows service, restoring system stability.
-- Resolved SQL data duplication issue, reducing support team workload by 17%.
-- Fixed critical frontend accessibility issues, reducing errors from 67 to zero.
+- Migrated the legacy bulk course completion service (previously based on SQL stored procedures) to a modern .NET 7.0 Windows service using **Azure Service Bus**, resulting in a **74% reduction** in data processing time, elimination of recurring errors, and significantly reduced database load.
 - Integrated **encoding.com** into video processing and normalization applications.
 - Built a **Salesforce** integration: the Litmos app opens inside a Salesforce canvas (iframe) with authentication and automatic user provisioning on first open.
 - Built the Litmos-side backend that synchronizes data between Litmos and Salesforce.
+- Built a granular roles and permissions system, enabling fine-tuned user access management and supporting enterprise-level client needs.
+- Implemented randomized task prioritization in queue processing by assigning random weights to new records, replacing a FIFO strategy — ensuring fairer task distribution and reduced delays for low-frequency requestors.
+- Optimized the report generation engine, reducing report processing time from **35 minutes to 1 min 15 sec** (96% improvement).
+- Eliminated a long-standing data duplication bug (present since the product's inception) that generated tens of thousands of duplicate records monthly under high load — fixed with SQL Server locking hints and de-duplication guards in stored procedures, reducing duplicates to zero and support workload by 17%.
+- Fixed critical frontend accessibility issues, lowering accessibility-related errors from 67 to zero.
+- Eliminated memory leaks in a key Windows service that previously caused system degradation and outages, restoring system stability.
 
 ### Software Engineer — ETAS / Bosch
 **Jun 2022 — May 2023** &nbsp;|&nbsp; Automotive software, Germany
